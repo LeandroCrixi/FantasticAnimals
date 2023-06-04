@@ -11,120 +11,134 @@
     </script>
 </head>
 <body>
-    <nav class="menu js-menu">
-        <ul>
-            <li><a href="#animais">Animals</a></li>
-            <li><a href="#faq">Faq</a></li>
-            <li><a href="#contato">Contact</a></li>
-            <li><a href="https://www.google.com">Dev →</a></li>
-        </ul>
-    </nav>
+    <div class="grid-container">
+        <nav class="menu" data-menu="suave">
+            <ul>
+                <li><a href="#animais">Animals</a></li>
+                <li><a href="#faq">Faq</a></li>
+                <li><a href="#contato">Contact</a></li>
+                <li><a data-modal="abrir" href="login.html">Login →</a></li>
+            </ul>
+        </nav>
 
-    <section class="grid-section animais js-scroll" id="animais">
-        <h1 class="titulo">Fantastic Animals</h1>
-        <ul class="animais-lista js-tabMenu">
-            <li>
-                <img src="./img/imagem1.jpg">
-            </li>
-            <li>
-                <img src="./img/imagem2.jpg">
-            </li>
-            <li>
-                <img src="./img/imagem3.jpg">
-            </li>
-            <li>
-                <img src="./img/imagem4.jpg">
-            </li>
-            <li>
-                <img src="./img/imagem5.jpg">
-            </li>
-            <li>
-                <img src="./img/imagem6.jpg">
-            </li>
-        </ul>
+        <section class="grid-section animais" data-anime="scroll" id="animais">
+            <h1 class="titulo">Fantastic Animals</h1>
+            <ul class="animais-lista" data-tab="menu">
+                <li>
+                    <img src="./img/imagem1.jpg">
+                </li>
+                <li>
+                    <img src="./img/imagem2.jpg">
+                </li>
+                <li>
+                    <img src="./img/imagem3.jpg">
+                </li>
+                <li>
+                    <img src="./img/imagem4.jpg">
+                </li>
+                <li>
+                    <img src="./img/imagem5.jpg">
+                </li>
+                <li>
+                    <img src="./img/imagem6.jpg">
+                </li>
+            </ul>
 
-        <div class="animais-descricao js-tabContent">
-            <section>
-                <h2>Fox</h2>
-                <p>Foxes are small to medium-sized, omnivorous mammals belonging to several genera of the family Canidae. They have a flattened skull, upright, triangular ears, a pointed, slightly upturned snout, and a long bushy tail ("brush").</p>
-                <p>Twelve species belong to the monophyletic "true fox" group of genus Vulpes.</p> 
-                <p>Approximately another 25 current or extinct species are always or sometimes called foxes; these foxes are either part of the paraphyletic group of the South American foxes, or of the outlying group, which consists of the bat-eared fox, gray fox, and island fox.</p>
-            </section>
+            <div class="animais-descricao" data-tab = "content">
+                <section data-anime = "show-right">
+                    <h2>Fox</h2>
+                    <p>Foxes are small to medium-sized, omnivorous mammals belonging to several genera of the family Canidae. They have a flattened skull, upright, triangular ears, a pointed, slightly upturned snout, and a long bushy tail ("brush").</p>
+                    <p>Twelve species belong to the monophyletic "true fox" group of genus Vulpes.</p> 
+                    <p>Approximately another 25 current or extinct species are always or sometimes called foxes; these foxes are either part of the paraphyletic group of the South American foxes, or of the outlying group, which consists of the bat-eared fox, gray fox, and island fox.</p>
+                </section>
 
-            <section>
-                <h2>Squirrel</h2>
-                <p>Squirrels are members of the family Sciuridae, a family that includes small or medium-size rodents. The squirrel family includes tree squirrels, ground squirrels (including chipmunks and prairie dogs, among others), and flying squirrels</p>
-                <p>Squirrels are indigenous to the Americas, Eurasia, and Africa, and were introduced by humans to Australia.</p> 
-                <p>The earliest known fossilized squirrels date from the Eocene epoch, and among other living rodent families, the squirrels are most closely related to the mountain beaver and to the dormice.</p>
-            </section>
+                <section data-anime = "show-down">
+                    <h2>Squirrel</h2>
+                    <p>Squirrels are members of the family Sciuridae, a family that includes small or medium-size rodents. The squirrel family includes tree squirrels, ground squirrels (including chipmunks and prairie dogs, among others), and flying squirrels</p>
+                    <p>Squirrels are indigenous to the Americas, Eurasia, and Africa, and were introduced by humans to Australia.</p> 
+                    <p>The earliest known fossilized squirrels date from the Eocene epoch, and among other living rodent families, the squirrels are most closely related to the mountain beaver and to the dormice.</p>
+                </section>
 
-            <section>
-                <h2>Bear</h2>
-                <p>Bears are carnivoran mammals of the family Ursidae. They are classified as caniforms, or doglike carnivorans. Although only eight species of bears are extant, they are widespread, appearing in a wide variety of habitats throughout the Northern Hemisphere and partially in the Southern Hemisphere.</p>
-                <p>Bears are found on the continents of North America, South America, Europe, and Asia. Common characteristics of modern bears include large bodies with stocky legs, long snouts, small rounded ears, shaggy hair, plantigrade paws with five nonretractile claws, and short tails.</p> 
-                <p>While the polar bear is mostly carnivorous, and the giant panda feeds almost entirely on bamboo, the remaining six species are omnivorous with varied diets.</p>
-            </section>
+                <section data-anime = "show-right">
+                    <h2>Bear</h2>
+                    <p>Bears are carnivoran mammals of the family Ursidae. They are classified as caniforms, or doglike carnivorans. Although only eight species of bears are extant, they are widespread, appearing in a wide variety of habitats throughout the Northern Hemisphere and partially in the Southern Hemisphere.</p>
+                    <p>Bears are found on the continents of North America, South America, Europe, and Asia. Common characteristics of modern bears include large bodies with stocky legs, long snouts, small rounded ears, shaggy hair, plantigrade paws with five nonretractile claws, and short tails.</p> 
+                    <p>While the polar bear is mostly carnivorous, and the giant panda feeds almost entirely on bamboo, the remaining six species are omnivorous with varied diets.</p>
+                </section>
 
-            <section>
-                <h2>Wolf</h2>
-                <p>The wolf (Canis lupus;[b] pl: wolves), also known as the gray wolf or grey wolf, is a large canine native to Eurasia and North America. More than thirty subspecies of Canis lupus have been recognized, including the dog and dingo, though gray wolves, as popularly understood, only comprise naturally-occurring wild subspecies.</p>
-                <p>The wolf is the largest extant member of the family Canidae, and is further distinguished from other Canis species by its less pointed ears and muzzle, as well as a shorter torso and a longer tail.</p> 
-                <p>The wolf is nonetheless related closely enough to smaller Canis species, such as the coyote and the golden jackal, to produce fertile hybrids with them.</p>
-            </section>
+                <section data-anime = "show-down">
+                    <h2>Wolf</h2>
+                    <p>The wolf (Canis lupus;[b] pl: wolves), also known as the gray wolf or grey wolf, is a large canine native to Eurasia and North America. More than thirty subspecies of Canis lupus have been recognized, including the dog and dingo, though gray wolves, as popularly understood, only comprise naturally-occurring wild subspecies.</p>
+                    <p>The wolf is the largest extant member of the family Canidae, and is further distinguished from other Canis species by its less pointed ears and muzzle, as well as a shorter torso and a longer tail.</p> 
+                    <p>The wolf is nonetheless related closely enough to smaller Canis species, such as the coyote and the golden jackal, to produce fertile hybrids with them.</p>
+                </section>
 
-            <section>
-                <h2>Monkey</h2>
-                <p>Monkey is a common name that may refer to most mammals of the infraorder Simiiformes, also known as the simians.</p>
-                <p>Traditionally, all animals in the group now known as simians are counted as monkeys except the apes, which constitutes an incomplete paraphyletic grouping; however, in the broader sense based on cladistics, apes (Hominoidea) are also included, making the terms monkeys and simians synonyms in regards to their scope.</p> 
-                <p>Many monkey species are tree-dwelling (arboreal), although there are species that live primarily on the ground, such as baboons. Most species are mainly active during the day (diurnal).</p>
-            </section>
+                <section data-anime = "show-right">
+                    <h2>Monkey</h2>
+                    <p>Monkey is a common name that may refer to most mammals of the infraorder Simiiformes, also known as the simians.</p>
+                    <p>Traditionally, all animals in the group now known as simians are counted as monkeys except the apes, which constitutes an incomplete paraphyletic grouping; however, in the broader sense based on cladistics, apes (Hominoidea) are also included, making the terms monkeys and simians synonyms in regards to their scope.</p> 
+                    <p>Many monkey species are tree-dwelling (arboreal), although there are species that live primarily on the ground, such as baboons. Most species are mainly active during the day (diurnal).</p>
+                </section>
 
-            <section>
-                <h2>Lion</h2>
-                <p>The lion (Panthera leo) is a large cat of the genus Panthera native to Africa and India. It has a muscular, broad-chested body; short, rounded head; round ears; and a hairy tuft at the end of its tail. It is sexually dimorphic; adult male lions are larger than females and have a prominent mane.</p>
-                <p>It is a social species, forming groups called prides. A lion's pride consists of a few adult males, related females, and cubs.</p> 
-                <p>Groups of female lions usually hunt together, preying mostly on large ungulates. The lion is an apex and keystone predator; although some lions scavenge when opportunities occur and have been known to hunt humans, lions typically do not actively seek out and prey on humans.</p>
-            </section>
+                <section data-anime = "show-down">
+                    <h2>Lion</h2>
+                    <p>The lion (Panthera leo) is a large cat of the genus Panthera native to Africa and India. It has a muscular, broad-chested body; short, rounded head; round ears; and a hairy tuft at the end of its tail. It is sexually dimorphic; adult male lions are larger than females and have a prominent mane.</p>
+                    <p>It is a social species, forming groups called prides. A lion's pride consists of a few adult males, related females, and cubs.</p> 
+                    <p>Groups of female lions usually hunt together, preying mostly on large ungulates. The lion is an apex and keystone predator; although some lions scavenge when opportunities occur and have been known to hunt humans, lions typically do not actively seek out and prey on humans.</p>
+                </section>
+            </div>
+        </section>
+
+        <section class="grid-section faq" data-anime="scroll" id="faq">
+            <h1 class="titulo">FAQ</h1>
+            <dl class="faq-lista" data-anime="accordion">
+                <dt>Why Do Some Tigers Have White Coats?</dt>
+                <dd>Researchers from China's Peking University have discovered that white tigers owe their unique coloration to a gene mutation in the pigment gene SLC45A2.</dd>
+
+                <dt>Do Reindeer Really Have Red Noses?</dt>
+                <dd>Their noses are abundantly supplied with red blood cells through the nasal microcirculation.</dd>
+
+                <dt>Why Do Some Animals Glow In the Dark?/dt>
+                <dd>Some animals can emit light naturally due to a chemical reaction in their cells.</dd>
+
+                <dt>How Do Bats Use Sound to Locate Prey?</dt>
+                <dd>Bats use echolocation and a process called active listening to locate prey, typically insects.</dd>
+
+                <dt>Why Do Some Animals Play Dead?</dt>
+                <dd>Playing dead is an adaptive behavior used by a number of animals including mammals, insects, and reptiles.</dd>
+            </dl>
+        </section>
+
+        <section class="grid-section contato" data-anime="scroll" id="contato">
+            <h1 class="titulo">Contact</h1>
+            <div class="mapa">
+                <img src="./img/mapa.png">
+            </div>
+            <ul class="dados">
+                <li>leandro.crixi@hotmail.com</li>
+                <li>+353 83 468 8541</li>
+                <li>Rath Lynn, Fiery Lane</li>
+                <li>Dublin</li>
+            </ul>
+        </section>
+
+        <footer class="copy">
+            <p>2023 © Fantastic Animals. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <section class="modal-container" data-modal="container">
+        <div class="modal">
+            <button data-modal="fechar" class="fechar">X</button>
+            <form action="">
+                <label for="email">Email</label>
+                <input type="text" for="email" id="email">
+                <label for="senha">Senha</label>
+                <input type="password" for="senha" id="senha">
+                <button type="submit">Entrar</button>
+            </form>
         </div>
     </section>
-
-    <section class="grid-section faq js-scroll" id="faq">
-        <h1 class="titulo">FAQ</h1>
-        <dl class="faq-lista js-accordion">
-            <dt>Why Do Some Tigers Have White Coats?</dt>
-            <dd>Researchers from China's Peking University have discovered that white tigers owe their unique coloration to a gene mutation in the pigment gene SLC45A2.</dd>
-
-            <dt>Do Reindeer Really Have Red Noses?</dt>
-            <dd>Their noses are abundantly supplied with red blood cells through the nasal microcirculation.</dd>
-
-            <dt>Why Do Some Animals Glow In the Dark?/dt>
-            <dd>Some animals can emit light naturally due to a chemical reaction in their cells.</dd>
-
-            <dt>How Do Bats Use Sound to Locate Prey?</dt>
-            <dd>Bats use echolocation and a process called active listening to locate prey, typically insects.</dd>
-
-            <dt>Why Do Some Animals Play Dead?</dt>
-            <dd>Playing dead is an adaptive behavior used by a number of animals including mammals, insects, and reptiles.</dd>
-        </dl>
-    </section>
-
-    <section class="grid-section contato js-scroll" id="contato">
-        <h1 class="titulo">Contact</h1>
-        <div class="mapa">
-            <img src="./img/mapa.png">
-        </div>
-        <ul class="dados">
-            <li>leandro.crixi@hotmail.com</li>
-            <li>+353 83 468 8541</li>
-            <li>Rath Lynn, Fiery Lane</li>
-            <li>Dublin</li>
-        </ul>
-    </section>
-
-    <footer class="copy">
-        <p>2023 © Fantastic Animals. All rights reserved.</p>
-    </footer>
-
-    <script src="./script.js"></script>
+    <script type="module" src="./script.js"></script>
 </body>
 </html>
