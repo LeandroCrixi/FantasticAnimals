@@ -6,7 +6,8 @@ import initModal from './js/modal.js'
 import initTooltip from './js/tooltip.js'
 import initDropdownMenu from './js/dropdown-menu.js'
 import initMenuMobile from './js/menu-mobile.js'
-import initAnimaNumeros from './js/animaNumeros.js'
+import initFuncionamento from './js/funcionamento.js'
+import initFetchAnimais from './js/fetch-animais.js'
 
 // shortcut print
 function printOut(x){
@@ -21,7 +22,8 @@ initModal();
 initTooltip();
 initDropdownMenu();
 initMenuMobile();
-initAnimaNumeros();
+initFuncionamento();
+initFetchAnimais();
 
 const h1 = document.querySelector('h1')
 const h1Object = Object.prototype.toString.call(h1);

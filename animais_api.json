@@ -1,0 +1,31 @@
+[
+     {
+        "specie": "Foxes",
+        "total": 19200
+    },
+
+    {
+        "specie": "Squirrels",
+        "total": 300000000
+    },
+
+    {
+        "specie": "Bears",
+        "total": 200000
+    },
+
+    {
+        "specie": "Wolves",
+        "total": 250000
+    },
+
+    {
+        "specie": "Monkyes",
+        "total": 200000
+    },
+
+    {
+        "specie": "Lions",
+        "total": 39000
+    }
+]
