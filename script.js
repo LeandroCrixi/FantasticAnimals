@@ -8,6 +8,7 @@ import initDropdownMenu from './js/dropdown-menu.js'
 import initMenuMobile from './js/menu-mobile.js'
 import initFuncionamento from './js/funcionamento.js'
 import initFetchAnimais from './js/fetch-animais.js'
+import initFecthBitcoin from './js/fetch-bitcoin.js'
 
 // shortcut print
 function printOut(x){
@@ -24,6 +25,7 @@ initDropdownMenu();
 initMenuMobile();
 initFuncionamento();
 initFetchAnimais();
+initFecthBitcoin();
 
 const h1 = document.querySelector('h1')
 const h1Object = Object.prototype.toString.call(h1);
